@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>Wizards vs Slimes</name>
+	<version>Pre release!</version>
+	<release_date>20250212000000</release_date>
+	<coder>Alfombra de Madera</coder>
+	<short_description>Wizard detroy slime, player happy.</short_description>
+	<long_description>Welcome to Wizards vs Slimes,
+	this is a pvz clone I made to learn how to make wii games, enjoy it!
+</long_description>
+
+</app>
+

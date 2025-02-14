@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "compare": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "xtr1common": "c",
+        "xutility": "c",
+        "cmath": "c",
+        "cstdlib": "c"
+    }
+}
