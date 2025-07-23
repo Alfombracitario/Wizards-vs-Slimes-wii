@@ -646,7 +646,6 @@ int main(int argc, char **argv) { //MAIN!!111111111!!11 CODE HEREEEEEEEE
         GRRLIB_DrawImg(0, 448, gfx_gradient, 0, 160, 0.5, c_gray); //fondo negro progreso
         GRRLIB_DrawImg(0, 448, gfx_gradient, 0, bar, 0.5, c_green); //progreso
         GRRLIB_Printf(0,448, font, c_white, 1, "FPS: %d", FPS); //FPS
-        GRRLIB_Printf(128,448, font, c_white, 1, "FBC: %d", fireballcount); //FPS
         GRRLIB_Printf(576, 384, font, c_white, 1, "Lv: %d", level); // Level
         GRRLIB_Printf(576, 396, font, c_white, 1, "$: %d", money); // Money
 
