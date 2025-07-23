@@ -293,6 +293,7 @@ int main(int argc, char **argv) { //MAIN!!111111111!!11 CODE HEREEEEEEEE
     GRRLIB_texImg *gfx_images32 = GRRLIB_LoadTexture(GFX_images32_png);
     GRRLIB_InitTileSet(gfx_images32, 32, 32, 0);
 
+    srand(time(NULL));
     //some data
     for (int i = 0; i < maxenemies; i++) {
         enemies[i].id = -1;
@@ -305,7 +306,6 @@ int main(int argc, char **argv) { //MAIN!!111111111!!11 CODE HEREEEEEEEE
         if (WPAD_ButtonsDown(0) & WPAD_BUTTON_HOME)  break;
         WPAD_SetVRes(0, 640, 480);
         WPAD_IR(WPAD_CHAN_0, &ir1);//ir1.x  ir1.y
-        srand(time(NULL));
         if(screen == 1)
         {
         int mouse_x = floor(ir1.x);
@@ -431,9 +431,6 @@ int main(int argc, char **argv) { //MAIN!!111111111!!11 CODE HEREEEEEEEE
                 }
             }
         }
-
-        //sorry cpu!
-        rand();
 
         if(enemyspawncooldown > 0)//enemy spawner
         {
