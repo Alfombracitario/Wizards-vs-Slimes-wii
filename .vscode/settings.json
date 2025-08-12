@@ -6,6 +6,7 @@
         "xtr1common": "c",
         "xutility": "c",
         "cmath": "c",
-        "cstdlib": "c"
+        "cstdlib": "c",
+        "gfx_images32_png.h": "c"
     }
 }
